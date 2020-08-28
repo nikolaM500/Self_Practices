@@ -10,6 +10,10 @@ public class EmailApp {
         em1.showInfo();
         em1.changePassword("blablabla");
         em1.showInfo();
+        em1.setAlternateEmail("sonnibonni@gmail.com");
+        em1.showInfo();
+
+
     }
 
 }
