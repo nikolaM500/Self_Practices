@@ -1,10 +1,10 @@
 package Bikes;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class RoadBicycle extends Bicycle{
 
-    Scanner in = new Scanner(System.in);
+   // Scanner in = new Scanner(System.in);
     boolean hasTheLights,hasTheBell,watterBottle;
     private boolean hasRadio = false;
     private boolean bagRack = false;
