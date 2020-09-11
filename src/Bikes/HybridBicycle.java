@@ -18,6 +18,7 @@ public class HybridBicycle extends Bicycle{
             price+=300;
             System.out.println("What is the power of the motor in kw?");
             this.motorPower=in.nextDouble();
+            in.nextLine();
         }
         if (motorPower<=0){
            throw new InvalidMotorPower(motorPower);
@@ -32,5 +33,15 @@ public class HybridBicycle extends Bicycle{
         }
 
 
+    }
+    public String toString() {
+        return
+                "Hybrid bicycle:"+
+                        "\nhasSpeeds=" + hasSpeeds +
+                        ", hasSpeedometer=" + hasSpeedometer +
+                        ", numOfSpeeds=" + numOfSpeeds +
+                        ", \nsizeOfWheels=" + sizeOfWheels +
+                        ", sizeOfFrame='" + sizeOfFrame
+                        +"\ntotal price is: "+price;
     }
 }

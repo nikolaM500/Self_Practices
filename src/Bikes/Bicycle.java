@@ -107,9 +107,14 @@ public class Bicycle {
         System.out.println("Push pedal reverse");
     }
 
-
-
-
-
-
+    @Override
+    public String toString() {
+        return
+                "hasSpeeds=" + hasSpeeds +
+                ", hasSpeedometer=" + hasSpeedometer +
+                ", numOfSpeeds=" + numOfSpeeds +
+                ", \nsizeOfWheels=" + sizeOfWheels +
+                ", sizeOfFrame='" + sizeOfFrame
+                +"\ntotal price is: "+price;
+    }
 }

@@ -82,4 +82,15 @@ public class RoadBicycle extends Bicycle{
     public void brake() {
         System.out.println("Use hand brake");
     }
+
+    public String toString() {
+        return
+                "Road Bicycle:"+
+                "\nhasSpeeds=" + hasSpeeds +
+                        ", hasSpeedometer=" + hasSpeedometer +
+                        ", numOfSpeeds=" + numOfSpeeds +
+                        ", \nsizeOfWheels=" + sizeOfWheels +
+                        ", sizeOfFrame='" + sizeOfFrame
+                        +"\ntotal price is: "+price;
+    }
 }
