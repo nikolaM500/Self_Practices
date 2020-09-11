@@ -1,11 +1,11 @@
 package Bikes;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class HybridBicycle extends Bicycle{
 
 
-    Scanner scan = new Scanner(System.in);
+   // Scanner scan = new Scanner(System.in);
     boolean hasElectricMotor;
     double motorPower;
 
@@ -17,7 +17,7 @@ public class HybridBicycle extends Bicycle{
         if (hasElectricMotor){
             price+=300;
             System.out.println("What is the power of the motor in kw?");
-            this.motorPower=scan.nextDouble();
+            this.motorPower=in.nextDouble();
         }
         if (motorPower<=0){
            throw new InvalidMotorPower(motorPower);
