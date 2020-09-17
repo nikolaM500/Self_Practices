@@ -1,6 +1,6 @@
 package SchoolManagement;
 
-public class Student {
+public class Student{
 
     String fullName,firstName,lastName,email,studentID;
     double payedFees, remainingFees, studentLoan;
